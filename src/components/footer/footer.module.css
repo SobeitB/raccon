@@ -1,0 +1,46 @@
+.footer{
+   background: #413A59;
+}
+
+.footer_paw{
+   height:100%;
+   background: url('./img/paw.png') right bottom no-repeat;
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-size: 774px 417px;
+   background-position: right 0px;
+}
+
+@media (max-width:650px) {
+   .footer_paw{
+      background-image: url('./img/pawMob.png');
+      background-size: 500px 300px;
+      background-position: right 0px;
+   }
+}
+
+.tw{
+   background-image:url('../../img/TWI.svg');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+.ig{
+   background-image:url('../../img/IG.svg');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+.tg{
+   background-image:url('../../img/TG.svg');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+.disc{
+   background-image:url('../../img/DISC.svg');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+

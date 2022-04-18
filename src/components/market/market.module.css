@@ -1,0 +1,22 @@
+.market{
+   background: linear-gradient(#DEDEDE,#D1F5FF);
+}
+
+.marketImg{
+   background-image:url('./img/bg.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   z-index: 1;
+}
+
+.deleate{
+   background:transparent url('./img/deleate.svg') center/1.7em auto no-repeat;
+}
+
+@media (max-width: 570px) {
+   .marketImg{
+      background-image:url('./img/bgMob.png');
+   }
+}

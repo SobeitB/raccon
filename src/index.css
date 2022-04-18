@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: a_DomIno;
+  src: url(./a-domino.woff);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./Montserrat.ttf);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bodyError{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+  background-color:rgba(0, 0, 0, 0.472);
+  width: 100%;
+  height: 100%;
+}
+
+.contError{
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content:center;
+  padding: 20px 10px;
+  top:50px;
+  z-index: 10001;
+  background-color:rgba(255, 255, 255, 0.829);
+  border-radius: 20px;
+  width: 500px;
+  height: 200px;
+
+  font-size: 23px;
+  font-family: 'DM Sans';
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+  color:#cc0000c7;
+}

@@ -1,0 +1,61 @@
+.main{
+   background-image:url('./img/main.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+@media (max-width:1500px) {
+   .main{
+      background-image:url('./img/bgTab.png');
+   }
+}
+
+@media (max-width:1110px) {
+   .main{
+     background-position: 100%;
+   }
+}
+
+.cloud{
+   background-image:url('./img/cloud.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+@media (max-width:800px) {
+   .cloud{
+      background-image:url('./img/cloudTable.png');
+   }
+}
+
+@media (max-width:800px) {
+   .main{
+      background-image:url('./img/bgMob.png');
+   }
+}
+
+@media (max-width:620px) {
+   .main{
+      background-position: 20%;
+   }
+}
+
+@media (max-width:560px) {
+   .main{
+      background-position: 40%;
+   }
+}
+
+@media (max-width:510px) {
+   .main{
+      background-position: 50%;
+   }
+}
+
+@media (max-width:450px) {
+   .main{
+      background-position: 60%;
+   }
+}
+
+

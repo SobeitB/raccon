@@ -1,0 +1,45 @@
+.main{
+   background: #D1F5FF;
+   background-image:url('./img/paw.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-position: -344px -20px;
+   background-size: 958px 958px;
+   position: relative;
+   top:-65px;
+   z-index: 0;
+}
+
+@media (max-width: 1170px) {
+   .main{
+      background-size: 500px 500px;
+      background-position: -30px 0px;
+      top:-35px;
+   }
+}
+
+@media (max-width: 860px) {
+   .main{
+      background-position: -130px 0px;
+   }
+}
+
+@media (max-width: 580px) {
+   .main{
+      background-position: -210px 0px;
+   }
+}
+
+.list{
+   list-style: none;
+   background-image: url("./img/star.svg");
+   background-repeat: no-repeat;
+   background-position: left center;
+   padding-left:10px; 
+}
+
+@media (max-width:1120px) {
+   .list{
+      background-size: 25px;
+   }
+}

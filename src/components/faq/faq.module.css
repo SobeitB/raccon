@@ -1,0 +1,27 @@
+.faq{
+   background: #D1F5FF;
+   background-image:url('./img/bg.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   top:-65px;
+}
+
+@media (max-width: 1170px) {
+   .faq{
+      top:-35px;
+   }
+}
+
+@media (max-width: 540px) {
+   .faq{
+      background-image:url('./img/bgMob.png');
+   }
+}
+
+.cloud{
+   background-image:url('./img/cloud.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+}

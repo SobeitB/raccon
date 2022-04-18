@@ -1,0 +1,13 @@
+.mobBg{
+   width:100%;
+   height: 744.52px;
+   background-image:url('./img/bgMob.png');
+   background-size: cover;
+   background-repeat:no-repeat;
+}
+
+@media (max-width: 732px) {
+   .mobBg{
+      height: 1580.56px;
+   }
+}
